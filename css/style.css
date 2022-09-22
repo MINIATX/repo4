@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto&display=swap');
+
+*{
+    font-family: 'Aboreto','sans-serif';
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color:rgb(4, 4, 4);
+}
+
+h3{
+    font-size: 2.8rem;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;    
+   }
+   nav ul li{    
+    margin-right: 20px;
+   }
+   nav ul li a{
+    text-decoration: none;
+    color: rgb(249, 248, 244);
+    font-size: 2rem;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    margin-left: 1rem;
+   }
+   nav ul li a:hover{
+    color:rgb(150, 20, 20);
+    font-weight: 600;
+    background-size: 100% 2px;
+   }
+
+main section p{ 
+    color: rgb(249, 248, 244);
+    font-size: 1.8rem;
+    line-height: 2.2rem; 
+}
+
+h1,h2,h3{
+    color:rgb(249, 248, 244);    
+    text-decoration: none;
+}
+
+.textJustify{
+    text-align: justify;
+}
+
+.imageStory{
+    padding-bottom: 0px;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-color: rgb(4, 4, 4);
+    border-style: solid;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    }
+
+.imageLogo{
+    height: 50px;
+    width: 50px;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-color: rgb(4, 4, 4);
+    border-style: solid;
+    text-decoration: none;
+    background-color: rgb(4, 4, 4);
+}
+
+main section {
+    display: block;
+    padding: 4vw 4vw;
+}
+
+.formJoinus{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.8rem;    
+    color:rgb(249, 248, 244);
+    line-height: 1.8rem;  
+    padding-bottom: 10px;  
+    margin-bottom: 25px;    
+    }
+
+.formSize{
+    font-size: 1.8rem;    
+    color:rgb(249, 248, 244);
+    line-height: 1.8rem;  
+    padding-bottom: 25px; 
+}
+
+.inputForm{
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-color: rgb(249, 248, 244);
+    border-style: solid;
+    padding-top: 0.2rem;
+}
+
+.joinusBotton{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.joinusBottonx:hover{
+    color:rgb(150, 20, 20);
+    font-weight: 600;
+    cursor: pointer;
+    background: linear-gradient(to top, rgb(249,248,244),rgb(163, 154,49));
+    }
+
+.joinusBottonx{
+    font-size: 2rem;
+    border-radius: 5px;
+    width: 50%;
+    height: 30%;
+    background: linear-gradient(to bottom, rgb(249,248,244),rgb(163,154,49));
+}
+
+.sendMessage{
+    padding-bottom: 1px;
+    margin-bottom: 10px;
+}
+
+body footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    }
+    body footer p{
+    font-size: 1.8rem;
+    font-family: 'Aboreto', sans-serif;
+    color:rgb(249, 248, 244);
+    padding: 1rem;
+    }
+    body footer div a{
+        padding-left: 1rem;
+    }   
+
+body main ul li a{
+    color: rgb(249, 248, 244);
+    text-decoration:none;
+    font-family: 'Aboreto';
+    font-size: 2rem;   
+    list-style: none; 
+}
+input, textarea{
+    background-color: rgb(219, 219, 217);
+}
+
+.imageHeader{
+    width: auto;
+    margin-left: 2vh;
+    margin-top: 2vh;
+}
+
+#bosses section h1{
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'aboreto', sans-serif;
+    margin-bottom: 4rem;
+    margin-top: 0;
+    background-color: rgb(4, 4, 4);
+}
+
+.imageBosses{
+    width: 65%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-color: rgb(4, 4, 4);
+    border-style: solid;
+    }
+
+#bosses section{
+    display: flex;
+    flex-direction: column;
+}
+
+#bosses section a{
+    display: flex;
+    justify-content: center;
+}
+
+#bosses h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'aboreto', sans-serif;
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+    animation-name: animateBosses;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
+}
+
+#bosses ul{
+    margin-left: 0rem;
+    margin-right: 0rem;    
+    list-style: none;
+    padding-bottom: 2rem;
+    animation-name: animateBosses;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
+    }
+    #bosses ul li{
+        margin-left: 0rem;
+        padding-bottom: 0.3rem;
+    }
+    #bosses ul li a{
+        padding-left: 4rem;
+        animation-name: animateBosses;
+        animation-duration: 5s;
+        animation-delay: 0.5s;
+       }
+    #bosses ul li a:hover{
+        color:rgb(150, 20, 20);
+        font-weight: 600;
+       }    
+  
+#bosses strong{
+    background-color: rgb(150, 20, 20);
+}
+
+#bosses section figure div figcaption{
+    color: rgb(249, 248, 244);
+    text-decoration:none;
+    font-size: 3rem;
+    list-style: none; 
+    margin-top: 2rem;
+    }
+    #bosses section figure{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+    #bosses section figure{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    @keyframes animateBosses{
+       from{opacity: 0}
+       to{opacity: 1}
+    }
+    
+#story section h1,h2{
+    text-align: center;
+    font-size: 4em;
+    padding: 2.5rem;
+    margin-bottom: 1rem;
+    }
+#story section h3{
+    margin-top: 1.5rem;
+}
+
+.textStory{
+    text-align: justify;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#levels ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;   
+    }
+
+    .imageLevels{
+        width: 25rem;
+        height: 17rem;
+        margin-top: 1rem;
+        margin-bottom: 0.2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;        
+        border-bottom-right-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+        border-color: rgb(4, 4, 4);
+        border-style: solid;
+        }
+        .imageLevels:hover{
+            transform: scale(1.2); 
+            transition: transform 1.5s;
+        }
+    #levels h2{
+        font-size: 1.5rem;        
+        color: rgb(249, 248, 244);
+        margin-left: 2rem;       
+        }
+    #levels h1{
+        text-align: center;
+        font-size: 5rem;               
+        margin-top: 2rem;
+        }
+        #levels h3{
+            text-align: center;
+            font-size: 4rem;
+            padding: 2.5rem;
+            margin-bottom: 5rem;
+            margin-top: 5rem;
+            }
+        #levels h4{
+            text-align: left;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            margin-top: 2rem;
+            color: rgb(249, 248, 244);
+        }
+        #levels ol{
+            font-family: 'Aboreto';
+            font-size: 1.8rem;
+            line-height: 2.2rem; 
+            color: rgb(249, 248, 244);
+            margin-left: 4rem;
+            padding-bottom: 1rem;
+            list-style: circle;
+        }
+
+main img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.fot-a{
+     grid-area: fotoA;   
+}
+
+.fot-b{
+   grid-area: fotoB;
+}
+
+.fot-c{
+    grid-area: fotoC;
+}
+
+.fot-d{
+    grid-area: fotoD;
+}
+
+.fot-e{
+    grid-area: fotoE;
+}
+
+.fot-f{
+   grid-area: fotoF;
+}
+
+.foto-g{
+    grid-area: fotoG;
+}
+
+#galeria{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 7,300px;
+    gap: 0.5vw 0.5vw;
+    grid-template-areas: 
+    "fotoA"
+    "fotoB"
+    "fotoC"
+    "fotoD"
+    "fotoE"
+    "fotoF"
+    "fotoG";
+    }
+
+
+@media (min-width:768px){
+    #galeria{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,400px);
+        grid-template-areas: 
+        "fotoF fotoF"
+        "fotoC fotoA"
+        "fotoG fotoD"
+        "fotoE fotoB"
+        ;
+        }
+}
+
+@media (min-width:1200px){
+    #galeria{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(5,28vh);
+        grid-template-areas: 
+        "fotoA fotoA fotoB"
+        "fotoA fotoA fotoB"
+        "fotoC fotoD fotoD"
+        "fotoC fotoD fotoD"
+        "fotoE fotoF fotoG";
+    }
+
+    #galeria img{
+        filter: grayscale(2);
+    }
+
+    #galeria img:hover{
+        filter: none;        
+    }
+}
+
