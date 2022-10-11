@@ -43,10 +43,45 @@ body{
    grid-area: fotoG;
 }
 
+.fot-h{
+    grid-area: fotoH;
+ }
+
+ .fot-i{
+    grid-area: fotoI;
+ }
+
+ .fot-j{
+    grid-area: fotoJ;
+ }
+ 
+ .fot-k{
+    grid-area: fotoK;
+ }
+
+ .fot-l{
+    grid-area: fotoL;
+ }
+
+ .fot-m{
+    grid-area: fotoM;
+ }
+
+ .fot-n{
+    grid-area: fotoN;
+ }
+
+ .fot-o{
+    grid-area: fotoO;
+ }
+
+ .fot-p{
+    grid-area: fotoP;
+ }
 #galeria{
    display: grid;
    grid-template-columns: 1fr;
-   grid-template-rows: 7,300px;
+   grid-template-rows: 16,300px;
    gap: 0.5vw 0.5vw;
    grid-template-areas: 
    "fotoA"
@@ -55,28 +90,51 @@ body{
    "fotoD"
    "fotoE"
    "fotoF"
-   "fotoG";
+   "fotoG"
+   "fotoK"
+   "fotoI"
+   "fotoJ"
+   "fotoH"
+   "fotoL"
+   "fotoM"
+   "fotoN"
+   "fotoO"
+   "fotoP";
 
    @media (min-width:768px){   
         grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(4,400px);
+        grid-template-rows: repeat(9,400px);
         grid-template-areas: 
         "fotoF fotoF"
         "fotoC fotoA"
         "fotoG fotoD"
         "fotoE fotoB"
+        "fotoH fotoI"
+        "fotoJ fotoK"
+        "fotoO fotoO"
+        "fotoL fotoM"
+        "fotoN fotoP"
         ;        
     }
 
     @media (min-width:1200px){        
             grid-template-columns: repeat(3,1fr);
-            grid-template-rows: repeat(5,28vh);
+            grid-template-rows: repeat(13,28vh);
             grid-template-areas: 
             "fotoA fotoA fotoB"
             "fotoA fotoA fotoB"
             "fotoC fotoD fotoD"
             "fotoC fotoD fotoD"
-            "fotoE fotoF fotoG";
+            "fotoE fotoF fotoG"
+            "fotoH fotoH fotoI"
+            "fotoH fotoH fotoI"
+            "fotoK fotoJ fotoJ"
+            "fotoL fotoM fotoM"
+            "fotoL fotoM fotoM"
+            "fotoN fotoN fotoP"            
+            "fotoO fotoO fotoO"
+            "fotoO fotoO fotoO";  
+
             img{
                 filter: grayscale(2);
                 &:hover{
