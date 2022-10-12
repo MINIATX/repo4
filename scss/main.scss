@@ -15,6 +15,11 @@ body{
     text-align: justify;
 }
 
+#error main p {
+   color: $thirdColor;
+   font-size: $textLg;
+}
+
 .fot-a{
     grid-area: fotoA;   
 }
@@ -175,6 +180,7 @@ body{
     border-radius: 5px;
     width: 50%;
     height: 30%;
+    text-decoration: none;
     background: linear-gradient(to bottom, $thirdColor,$fivethColor);
     &:hover{
         color: $secondaryColor;
@@ -182,6 +188,7 @@ body{
         cursor: pointer;
         background: linear-gradient(to top, $thirdColor,$fivethColor);
     }
+
 }
  body footer{
     display: flex;
